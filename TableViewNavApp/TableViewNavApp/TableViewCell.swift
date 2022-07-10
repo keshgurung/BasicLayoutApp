@@ -23,6 +23,7 @@ class TableViewCell: UITableViewCell {
         
     }
     
+  
     
     @IBAction func SliderValueChange(_ sender: UISlider) {
        let slideVal = "Value: \(String(Int(sender.value)))"

@@ -24,8 +24,10 @@ class ViewController: UIViewController {
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        
         if segue.identifier == "goToDetail" {
-            let destinationVC = segue.destination as! DetailViewController
+            guard let destinationVC = segue.destination as? DetailViewController else {return}
             destinationVC.indexValue = indexValue
             destinationVC.imgName = imgName
         }
