@@ -7,11 +7,14 @@
 
 import UIKit
 
+protocol DismissDetailDelegate: AnyObject {
+    func dismissDetail()
+}
 class DetailViewController: UIViewController {
 
     var indexValue: String?
     var imgName: String?
-    
+    var delegate: DismissDetailDelegate?
     
     @IBOutlet weak var imageLabel: UIImageView!
    
@@ -19,7 +22,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var indexLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-//        title = "Detail View"
+        title = "Detail View"
         indexLabel.text = "Your index is: \(indexValue ?? "0")"
         self.imageLabel.image = UIImage(named: imgName ?? "m3")
         
@@ -27,7 +30,8 @@ class DetailViewController: UIViewController {
     }
     
     @IBAction func DismissButton(_ sender: UIButton) {
-        dismiss(animated: true)
+//        dismiss(animated: true)
+        self.delegate?.dismissDetail()
     }
     
     /*

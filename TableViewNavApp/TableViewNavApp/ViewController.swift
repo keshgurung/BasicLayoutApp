@@ -19,7 +19,10 @@ class ViewController: UIViewController {
         self.TableView.backgroundColor = .systemPink
         self.TableView.dataSource = self
         TableView.delegate = self
+        
+        
 //        register cell
+        
         self.TableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "TableViewCell")
     }
 
@@ -30,6 +33,7 @@ class ViewController: UIViewController {
             guard let destinationVC = segue.destination as? DetailViewController else {return}
             destinationVC.indexValue = indexValue
             destinationVC.imgName = imgName
+            destinationVC.delegate = self
         }
     }
     
@@ -71,5 +75,11 @@ extension ViewController: UITableViewDelegate {
 
         self.performSegue(withIdentifier: "goToDetail", sender: self)
 
+    }
+}
+
+extension ViewController: DismissDetailDelegate {
+    func dismissDetail() {
+        self.dismiss(animated: true, completion: nil)
     }
 }
