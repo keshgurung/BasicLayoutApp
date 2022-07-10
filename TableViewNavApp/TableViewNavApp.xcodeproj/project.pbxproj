@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2095225A2878343300DBED53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209522592878343300DBED53 /* AppDelegate.swift */; };
-		2095225C2878343300DBED53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095225B2878343300DBED53 /* SceneDelegate.swift */; };
-		2095225E2878343300DBED53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095225D2878343300DBED53 /* ViewController.swift */; };
-		209522612878343300DBED53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2095225F2878343300DBED53 /* Main.storyboard */; };
-		209522632878343400DBED53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209522622878343400DBED53 /* Assets.xcassets */; };
-		209522662878343400DBED53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209522642878343400DBED53 /* LaunchScreen.storyboard */; };
-		209522702878346D00DBED53 /* XIBTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095226E2878346D00DBED53 /* XIBTableViewCell.swift */; };
-		209522712878346D00DBED53 /* XIBTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2095226F2878346D00DBED53 /* XIBTableViewCell.xib */; };
-		209522732878441600DBED53 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209522722878441600DBED53 /* DetailViewController.swift */; };
+		20952281287AD3E500DBED53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20952280287AD3E500DBED53 /* AppDelegate.swift */; };
+		20952283287AD3E500DBED53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20952282287AD3E500DBED53 /* SceneDelegate.swift */; };
+		20952285287AD3E500DBED53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20952284287AD3E500DBED53 /* ViewController.swift */; };
+		20952288287AD3E500DBED53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20952286287AD3E500DBED53 /* Main.storyboard */; };
+		2095228A287AD3E600DBED53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20952289287AD3E600DBED53 /* Assets.xcassets */; };
+		2095228D287AD3E600DBED53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2095228B287AD3E600DBED53 /* LaunchScreen.storyboard */; };
+		20952296287AD8C900DBED53 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20952294287AD8C900DBED53 /* TableViewCell.swift */; };
+		20952297287AD8C900DBED53 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20952295287AD8C900DBED53 /* TableViewCell.xib */; };
+		20952299287B003100DBED53 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20952298287B003100DBED53 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		209522562878343300DBED53 /* customcell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customcell.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		209522592878343300DBED53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2095225B2878343300DBED53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2095225D2878343300DBED53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		209522602878343300DBED53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		209522622878343400DBED53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		209522652878343400DBED53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		209522672878343400DBED53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2095226E2878346D00DBED53 /* XIBTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBTableViewCell.swift; sourceTree = "<group>"; };
-		2095226F2878346D00DBED53 /* XIBTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIBTableViewCell.xib; sourceTree = "<group>"; };
-		209522722878441600DBED53 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2095227D287AD3E500DBED53 /* TableViewNavApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewNavApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20952280287AD3E500DBED53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20952282287AD3E500DBED53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		20952284287AD3E500DBED53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20952287287AD3E500DBED53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20952289287AD3E600DBED53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2095228C287AD3E600DBED53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2095228E287AD3E600DBED53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20952294287AD8C900DBED53 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		20952295287AD8C900DBED53 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		20952298287B003100DBED53 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		209522532878343300DBED53 /* Frameworks */ = {
+		2095227A287AD3E500DBED53 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,83 +43,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2095224D2878343300DBED53 = {
+		20952274287AD3E500DBED53 = {
 			isa = PBXGroup;
 			children = (
-				209522582878343300DBED53 /* customcell */,
-				209522572878343300DBED53 /* Products */,
+				2095227F287AD3E500DBED53 /* TableViewNavApp */,
+				2095227E287AD3E500DBED53 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		209522572878343300DBED53 /* Products */ = {
+		2095227E287AD3E500DBED53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				209522562878343300DBED53 /* customcell.app */,
+				2095227D287AD3E500DBED53 /* TableViewNavApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		209522582878343300DBED53 /* customcell */ = {
+		2095227F287AD3E500DBED53 /* TableViewNavApp */ = {
 			isa = PBXGroup;
 			children = (
-				2095226D2878345600DBED53 /* TableView */,
-				209522592878343300DBED53 /* AppDelegate.swift */,
-				2095225B2878343300DBED53 /* SceneDelegate.swift */,
-				209522722878441600DBED53 /* DetailViewController.swift */,
-				2095225D2878343300DBED53 /* ViewController.swift */,
-				2095225F2878343300DBED53 /* Main.storyboard */,
-				209522622878343400DBED53 /* Assets.xcassets */,
-				209522642878343400DBED53 /* LaunchScreen.storyboard */,
-				209522672878343400DBED53 /* Info.plist */,
+				20952280287AD3E500DBED53 /* AppDelegate.swift */,
+				20952282287AD3E500DBED53 /* SceneDelegate.swift */,
+				20952284287AD3E500DBED53 /* ViewController.swift */,
+				20952286287AD3E500DBED53 /* Main.storyboard */,
+				20952298287B003100DBED53 /* DetailViewController.swift */,
+				20952294287AD8C900DBED53 /* TableViewCell.swift */,
+				20952295287AD8C900DBED53 /* TableViewCell.xib */,
+				20952289287AD3E600DBED53 /* Assets.xcassets */,
+				2095228B287AD3E600DBED53 /* LaunchScreen.storyboard */,
+				2095228E287AD3E600DBED53 /* Info.plist */,
 			);
-			path = customcell;
-			sourceTree = "<group>";
-		};
-		2095226D2878345600DBED53 /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				2095226E2878346D00DBED53 /* XIBTableViewCell.swift */,
-				2095226F2878346D00DBED53 /* XIBTableViewCell.xib */,
-			);
-			path = TableView;
+			path = TableViewNavApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		209522552878343300DBED53 /* customcell */ = {
+		2095227C287AD3E500DBED53 /* TableViewNavApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2095226A2878343400DBED53 /* Build configuration list for PBXNativeTarget "customcell" */;
+			buildConfigurationList = 20952291287AD3E600DBED53 /* Build configuration list for PBXNativeTarget "TableViewNavApp" */;
 			buildPhases = (
-				209522522878343300DBED53 /* Sources */,
-				209522532878343300DBED53 /* Frameworks */,
-				209522542878343300DBED53 /* Resources */,
+				20952279287AD3E500DBED53 /* Sources */,
+				2095227A287AD3E500DBED53 /* Frameworks */,
+				2095227B287AD3E500DBED53 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = customcell;
-			productName = customcell;
-			productReference = 209522562878343300DBED53 /* customcell.app */;
+			name = TableViewNavApp;
+			productName = TableViewNavApp;
+			productReference = 2095227D287AD3E500DBED53 /* TableViewNavApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2095224E2878343300DBED53 /* Project object */ = {
+		20952275287AD3E500DBED53 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					209522552878343300DBED53 = {
+					2095227C287AD3E500DBED53 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 209522512878343300DBED53 /* Build configuration list for PBXProject "customcell" */;
+			buildConfigurationList = 20952278287AD3E500DBED53 /* Build configuration list for PBXProject "TableViewNavApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,58 +119,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 2095224D2878343300DBED53;
-			productRefGroup = 209522572878343300DBED53 /* Products */;
+			mainGroup = 20952274287AD3E500DBED53;
+			productRefGroup = 2095227E287AD3E500DBED53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				209522552878343300DBED53 /* customcell */,
+				2095227C287AD3E500DBED53 /* TableViewNavApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		209522542878343300DBED53 /* Resources */ = {
+		2095227B287AD3E500DBED53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				209522662878343400DBED53 /* LaunchScreen.storyboard in Resources */,
-				209522632878343400DBED53 /* Assets.xcassets in Resources */,
-				209522612878343300DBED53 /* Main.storyboard in Resources */,
-				209522712878346D00DBED53 /* XIBTableViewCell.xib in Resources */,
+				2095228D287AD3E600DBED53 /* LaunchScreen.storyboard in Resources */,
+				20952297287AD8C900DBED53 /* TableViewCell.xib in Resources */,
+				2095228A287AD3E600DBED53 /* Assets.xcassets in Resources */,
+				20952288287AD3E500DBED53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		209522522878343300DBED53 /* Sources */ = {
+		20952279287AD3E500DBED53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2095225E2878343300DBED53 /* ViewController.swift in Sources */,
-				2095225A2878343300DBED53 /* AppDelegate.swift in Sources */,
-				209522732878441600DBED53 /* DetailViewController.swift in Sources */,
-				2095225C2878343300DBED53 /* SceneDelegate.swift in Sources */,
-				209522702878346D00DBED53 /* XIBTableViewCell.swift in Sources */,
+				20952285287AD3E500DBED53 /* ViewController.swift in Sources */,
+				20952296287AD8C900DBED53 /* TableViewCell.swift in Sources */,
+				20952299287B003100DBED53 /* DetailViewController.swift in Sources */,
+				20952281287AD3E500DBED53 /* AppDelegate.swift in Sources */,
+				20952283287AD3E500DBED53 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2095225F2878343300DBED53 /* Main.storyboard */ = {
+		20952286287AD3E500DBED53 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				209522602878343300DBED53 /* Base */,
+				20952287287AD3E500DBED53 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		209522642878343400DBED53 /* LaunchScreen.storyboard */ = {
+		2095228B287AD3E600DBED53 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				209522652878343400DBED53 /* Base */,
+				2095228C287AD3E600DBED53 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -186,7 +178,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		209522682878343400DBED53 /* Debug */ = {
+		2095228F287AD3E600DBED53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		209522692878343400DBED53 /* Release */ = {
+		20952290287AD3E600DBED53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -300,7 +292,7 @@
 			};
 			name = Release;
 		};
-		2095226B2878343400DBED53 /* Debug */ = {
+		20952292287AD3E600DBED53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -308,7 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = customcell/Info.plist;
+				INFOPLIST_FILE = TableViewNavApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kry-inc.customcell";
+				PRODUCT_BUNDLE_IDENTIFIER = "kry-inc.TableViewNavApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -327,7 +319,7 @@
 			};
 			name = Debug;
 		};
-		2095226C2878343400DBED53 /* Release */ = {
+		20952293287AD3E600DBED53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -335,7 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = customcell/Info.plist;
+				INFOPLIST_FILE = TableViewNavApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -346,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kry-inc.customcell";
+				PRODUCT_BUNDLE_IDENTIFIER = "kry-inc.TableViewNavApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -357,25 +349,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		209522512878343300DBED53 /* Build configuration list for PBXProject "customcell" */ = {
+		20952278287AD3E500DBED53 /* Build configuration list for PBXProject "TableViewNavApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				209522682878343400DBED53 /* Debug */,
-				209522692878343400DBED53 /* Release */,
+				2095228F287AD3E600DBED53 /* Debug */,
+				20952290287AD3E600DBED53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2095226A2878343400DBED53 /* Build configuration list for PBXNativeTarget "customcell" */ = {
+		20952291287AD3E600DBED53 /* Build configuration list for PBXNativeTarget "TableViewNavApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2095226B2878343400DBED53 /* Debug */,
-				2095226C2878343400DBED53 /* Release */,
+				20952292287AD3E600DBED53 /* Debug */,
+				20952293287AD3E600DBED53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2095224E2878343300DBED53 /* Project object */;
+	rootObject = 20952275287AD3E500DBED53 /* Project object */;
 }

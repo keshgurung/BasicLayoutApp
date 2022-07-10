@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  customcell
+//  TableViewNavApp
 //
-//  Created by Kesh Gurung on 08/07/2022.
+//  Created by Kesh Gurung on 10/07/2022.
 //
 
 import UIKit
